@@ -8,22 +8,20 @@ import net.thucydides.core.annotations.Step;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class CineColombiaHomeSteps extends ScenarioSteps{
-    CineColombiaHomePage loginPage;
+    CineColombiaHomePage homePage;
 
     @Step
-    public void loginPageInvalidDataInput(){
-        loginPage.gotoHomePage();
-        loginPage.getPlays();
+    public void gotoHomePage(){
+        homePage.gotoHomePage();
     }
 
     @Step
-    public void enterLoginData(){
-        loginPage.enterInvalidEmailIdWPLoginPage();
+    public void browsePlays(){
+        homePage.browsePlays();
     }
 
     @Step
-    public void checkErrorMessage(){
-        assertThat(loginPage.isErrorMessageShownWPLoginPage()).isTrue();
+    public void saveResult(){
+        homePage.saveResult();
     }
-
 }

@@ -1,16 +1,12 @@
 package integration.pages;
 
 import integration.Util.Constants;
+import integration.Util.ExcelHelper;
 import integration.models.Movie;
 import org.openqa.selenium.By;
-import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.WebDriver;
-
 import io.appium.java_client.pagefactory.*;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
@@ -39,40 +35,14 @@ public class CineColombiaHomePage extends MobilePageObject {
     @AndroidFindBy(id = "com.cinepapaya.cinecolombia:id/rviMovies")
     private WebElement resultMovies;
 
-    @AndroidFindBy(xpath="//android.widget.EditText")
-    @iOSFindBy(xpath="//XCUIElementTypeTextField[@name=\"Email address\"]")
-    private WebElement WPEmailAddressField;
-
-    @AndroidFindBy(id="org.wordpress.android:id/primary_button")
-    @iOSFindBy(xpath="//XCUIElementTypeButton[@name=\"Next Button\"]")
-    private WebElement WPLogInPageNextButton;
-
-    @AndroidFindBy(id="org.wordpress.android:id/textinput_error")
-    @iOSFindBy(xpath="//XCUIElementTypeStaticText[contains(@name,'not registered')]")
-    private WebElement WPLogInPageInvalidEmailErrorMessage;
-
-    @FindBy(id="com.flipkart.android:id/btn_mlogin")
-    private WebElement existingUsersignIn;
-
-    @FindBy(id="com.flipkart.android:id/mobileNo")
-    private WebElement userId;
-
-    @FindBy(id="com.flipkart.android:id/et_password")
-    private WebElement password;
-
-    @FindBy(id="com.flipkart.android:id/btn_mlogin")
-    private WebElement login_Button;
-
-    @FindBy(id="com.flipkart.android:id/pageLevelError")
-    private WebElement error_text;
-
+    private List<Movie> movies;
 
     public void gotoHomePage(){
         clickElement(continueButton);
     }
 
-    public void getPlays(){
-        List<Movie> movies = new ArrayList<>();
+    public void browsePlays(){
+        movies = new ArrayList<>();
 
         try {
             movies.addAll(getMoviesFromOption(operaOption));
@@ -82,7 +52,10 @@ public class CineColombiaHomePage extends MobilePageObject {
         catch (InterruptedException ex) {
             System.out.println(":( Something goes wrong!");
         }
+    }
 
+    public void saveResult(){
+        ExcelHelper.export(movies);
     }
 
     private void openHomeMenu(){
@@ -99,7 +72,7 @@ public class CineColombiaHomePage extends MobilePageObject {
         openHomeMenu();
         clickElement(option);
         //this.getDriver().wait(2000);
-        TimeUnit.SECONDS.sleep(2);
+        TimeUnit.SECONDS.sleep(4);
         movies.addAll(getMovies(resultMovies));
 
         return  movies;
@@ -128,35 +101,4 @@ public class CineColombiaHomePage extends MobilePageObject {
 
         return movie;
     }
-
-
-
-    public void enterInvalidEmailIdWPLoginPage(){
-        WPEmailAddressField.sendKeys("vikram@invalid.com");
-    }
-
-    public boolean isErrorMessageShownWPLoginPage(){
-        WPLogInPageNextButton.click();
-        return WPLogInPageInvalidEmailErrorMessage.getText().contains("is not registered on WordPress.com");
-    }
-
-
-    public void gotoLoginPage(){
-        WebDriverWait wait = new WebDriverWait(getDriver(), 60);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("com.flipkart.android:id/btn_mlogin")) );
-        element(existingUsersignIn).click();
-    }
-
-    public void enterInvalidCredentials(){
-        element(userId).sendKeys("dummyName");
-        element(password).sendKeys("invalidPwd");
-        element(login_Button).click();
-    }
-
-    public boolean isErrorMessageShown(){
-        WebDriverWait wait = new WebDriverWait(getDriver(), 60);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("com.flipkart.android:id/pageLevelError")) );
-        return element(error_text).getText().contentEquals("Invalid login details");
-    }
-
 }

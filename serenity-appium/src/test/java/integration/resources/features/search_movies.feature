@@ -1,6 +1,6 @@
 Feature: Search for movies
 
-Scenario: User want to save all ballet,opera and teatro listed movies
-Given User is on home page
-When Enter invalid credentials
-Then  User is shown error message
+Scenario: Save result from Opera, Ballet and Theater plays
+Given I am on the home page
+When I browse for all the option
+Then  I save the results in a excel file

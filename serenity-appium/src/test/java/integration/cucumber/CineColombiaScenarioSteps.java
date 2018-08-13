@@ -10,21 +10,20 @@ import integration.steps.CineColombiaHomeSteps;
 public class CineColombiaScenarioSteps {
 
     @Steps
-    CineColombiaHomeSteps loginSteps;
+    CineColombiaHomeSteps cineColombiaSteps;
 
-    @Given("User is on home page")
+    @Given("I am on the home page")
     public void gotoLoginPage(){
-        loginSteps.loginPageInvalidDataInput();
+        cineColombiaSteps.gotoHomePage();
     }
 
-    @When("Enter invalid credentials")
+    @When("I browse for all the option")
     public void enterInvalidData(){
-        //loginSteps.enterLoginData();
+        cineColombiaSteps.browsePlays();
     }
 
-    @Then("User is shown error message")
+    @Then("I save the results in a excel file")
     public void checkErrorMessage(){
-        //loginSteps.checkErrorMessage();
+        cineColombiaSteps.saveResult();
     }
-
 }

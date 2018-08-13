@@ -73,7 +73,7 @@
             <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 13-08-2018 11:58</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 13-08-2018 13:30</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -106,9 +106,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="outcome-icon"><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></span>
                             <span class="test-case-title">
-                                    <span class="success-color">
+                                    <span class="error-color">
                                     User want to save all ballet,opera and teatro listed movies
                                         <span class="related-issue-title"></span>
                                 </span>
@@ -143,12 +143,12 @@
                 <tr class="step-table-separator">
                     <td colspan="5"></td>
                 </tr>
-                <tr class="test-SUCCESS">
+                <tr class="test-ERROR">
                     <td width="60" class="step-icon">
                         <a name="0"/>
                             <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
                                style="display:block">
-                                <i class="fa fa-plus-square-o imgstepSection0 success-icon"
+                                <i class="fa fa-plus-square-o imgstepSection0 error-icon"
                                    style="margin-left: 20px; float:left;  padding-right:5px"></i>
                             </a>
                     </td>
@@ -163,27 +163,20 @@
 
                         </div>
                     </td>
-                        <td width="100" class="SUCCESS-text">
-                                <a href="807515b3394e00f76a1cdaad96f6004b8affb866308aaf63b78fa8986a45d82e_screenshots.html#screenshots?screenshot=0">
-                                    <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="0f1312102c1fb9408011d02490ddb67f2c1de20e889ed07fb896ccb7f1e260d1.png"
-                                         href="0f1312102c1fb9408011d02490ddb67f2c1de20e889ed07fb896ccb7f1e260d1.png"
-                                         class="screenshot"
-                                         width="48" height="48"/>
-                                </a>
+                        <td width="100" class="ERROR-text">
                         </td>
-                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
-                    <td width="100"><span class="top-level-step">48.38s</span></td>
+                    <td width="100"><span class="top-level-step">ERROR</span></td>
+                    <td width="100"><span class="top-level-step">42.95s</span></td>
                 </tr>
                     <tr>
                     <td colspan="5">
                     <table id="stepSection0" style="display:none; width:100%">
 
-                <tr class="test-SUCCESS">
+                <tr class="test-ERROR">
                     <td width="60" class="step-icon">
                         
                             <span style="margin-left: 40px; margin-right: 5px;"
-                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                                  class="nested-group-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
                     </td>
                     <td>
                         <div class="step-description">
@@ -193,27 +186,76 @@
 
                         </div>
                     </td>
-                        <td width="100" class="SUCCESS-text">
-                                <a href="807515b3394e00f76a1cdaad96f6004b8affb866308aaf63b78fa8986a45d82e_screenshots.html#screenshots?screenshot=1">
+                        <td width="100" class="ERROR-text">
+                                <a href="807515b3394e00f76a1cdaad96f6004b8affb866308aaf63b78fa8986a45d82e_screenshots.html#screenshots?screenshot=0">
                                     <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="45d77f8a69becef1a3dd235bd0cb77bfaa26b71ec779990cf5925fd39ba2d3ca.png"
-                                         href="45d77f8a69becef1a3dd235bd0cb77bfaa26b71ec779990cf5925fd39ba2d3ca.png"
+                                    <img src="f0b50392f46c21a8077f2127cd719bbd60d20217f7c723737e49a8c1696a6f61.png"
+                                         href="f0b50392f46c21a8077f2127cd719bbd60d20217f7c723737e49a8c1696a6f61.png"
                                          class="screenshot"
                                          width="48" height="48"/>
                                 </a>
                         </td>
-                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">12.31s</span></td>
+                    <td width="100"><span class="nested-group-step">ERROR</span></td>
+                    <td width="100"><span class="nested-group-step">6.62s</span></td>
                 </tr>
+                    <tr class="test-ERROR">
+                        <td width="40">&nbsp</td>
+                        <td width="%" colspan="4" class="error-message-cell">
+                            <div class="error-message ellipsis"
+                                 title='Illegal monitor state exception'>
+                                <pre>Illegal monitor state exception</pre>
+                            </div>
+                <div><!-- Stack trace -->
+                    <button type="button" class="btn btn-danger btn-sm" data-toggle="modal"
+                            data-target="#stacktraceModal-2">
+                        View stack trace
+                    </button>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="stacktraceModal-2" tabindex="-1" role="dialog"
+                     aria-labelledby="stacktraceModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="stacktraceModalLabel">
+                                java.lang.IllegalMonitorStateException
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                integration.pages.CineColombiaHomePage.getMoviesFromOption(CineColombiaHomePage.java
+                                    :100) <br>
+                                integration.pages.CineColombiaHomePage.getPlays(CineColombiaHomePage.java
+                                    :77) <br>
+                                integration.steps.CineColombiaHomeSteps.loginPageInvalidDataInput(CineColombiaHomeSteps.java
+                                    :16) <br>
+                                integration.cucumber.CineColombiaScenarioSteps.gotoLoginPage(CineColombiaScenarioSteps.java
+                                    :17) <br>
+                                cucumber.runner.Runner.runPickle(Runner.java
+                                    :80) <br>
+                            </div>
+
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                        </td>
+                    </tr>
 
                     </table>
                     </td>
                     <tr>
-                <tr class="test-SUCCESS">
+                <tr class="test-SKIPPED">
                     <td width="60" class="step-icon">
                         <a name="1"/>
                             <span style="margin-left: 20px; margin-right: 5px;"
-                                  class="top-level-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                                  class="top-level-icon"><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></span>
                     </td>
                     <td>
                         <div class="step-description">
@@ -223,23 +265,16 @@
 
                         </div>
                     </td>
-                        <td width="100" class="SUCCESS-text">
-                                <a href="807515b3394e00f76a1cdaad96f6004b8affb866308aaf63b78fa8986a45d82e_screenshots.html#screenshots?screenshot=3">
-                                    <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="85b9c2742d3dc97dacc12d9dcf182fd1844b424ef3a736d469dcbef4ddd81317.png"
-                                         href="85b9c2742d3dc97dacc12d9dcf182fd1844b424ef3a736d469dcbef4ddd81317.png"
-                                         class="screenshot"
-                                         width="48" height="48"/>
-                                </a>
+                        <td width="100" class="SKIPPED-text">
                         </td>
-                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
-                    <td width="100"><span class="top-level-step">0.77s</span></td>
+                    <td width="100"><span class="top-level-step">SKIPPED</span></td>
+                    <td width="100"><span class="top-level-step">0s</span></td>
                 </tr>
-                <tr class="test-SUCCESS">
+                <tr class="test-SKIPPED">
                     <td width="60" class="step-icon">
                         <a name="2"/>
                             <span style="margin-left: 20px; margin-right: 5px;"
-                                  class="top-level-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                                  class="top-level-icon"><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></span>
                     </td>
                     <td>
                         <div class="step-description">
@@ -249,22 +284,15 @@
 
                         </div>
                     </td>
-                        <td width="100" class="SUCCESS-text">
-                                <a href="807515b3394e00f76a1cdaad96f6004b8affb866308aaf63b78fa8986a45d82e_screenshots.html#screenshots?screenshot=5">
-                                    <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="5a6a2640c79cdba8e5f206105145ef8b6fb6914420fccefb3b928fc2f396ac34.png"
-                                         href="5a6a2640c79cdba8e5f206105145ef8b6fb6914420fccefb3b928fc2f396ac34.png"
-                                         class="screenshot"
-                                         width="48" height="48"/>
-                                </a>
+                        <td width="100" class="SKIPPED-text">
                         </td>
-                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
-                    <td width="100"><span class="top-level-step">1.08s</span></td>
+                    <td width="100"><span class="top-level-step">SKIPPED</span></td>
+                    <td width="100"><span class="top-level-step">0s</span></td>
                 </tr>
-                <tr class="test-SUCCESS">
+                <tr class="test-ERROR">
                     <td colspan="3"></td>
-                    <td width="100"><span class="top-level-step"><em>SUCCESS</em></span></td>
-                    <td width="100"><span class="top-level-step"><em>51.96s</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>ERROR</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>44.98s</em></span></td>
                 </tr>
 
             </table>

@@ -13,7 +13,6 @@ public class CineColombiaHomeSteps extends ScenarioSteps{
     @Step
     public void loginPageInvalidDataInput(){
         loginPage.gotoHomePage();
-        loginPage.openHomeMenu();
         loginPage.getPlays();
     }
 

@@ -13,6 +13,7 @@ import io.appium.java_client.pagefactory.*;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 public class CineColombiaHomePage extends MobilePageObject {
 
@@ -70,7 +71,21 @@ public class CineColombiaHomePage extends MobilePageObject {
         clickElement(continueButton);
     }
 
-    public void openHomeMenu(){
+    public void getPlays(){
+        List<Movie> movies = new ArrayList<>();
+
+        try {
+            movies.addAll(getMoviesFromOption(operaOption));
+            movies.addAll(getMoviesFromOption(balletOption));
+            movies.addAll(getMoviesFromOption(teatroOption));
+        }
+        catch (InterruptedException ex) {
+            System.out.println(":( Something goes wrong!");
+        }
+
+    }
+
+    private void openHomeMenu(){
         clickElement(homeMenu);
     }
 
@@ -78,22 +93,30 @@ public class CineColombiaHomePage extends MobilePageObject {
         element(webElement).click();
     }
 
-    public void getPlays(){
-        clickElement(operaOption);
-        getMovies(resultMovies);
-        openHomeMenu();
-        clickElement(balletOption);
-        openHomeMenu();
-        clickElement(teatroOption);
-    }
-
-    private void getMovies(WebElement source){
-        List<WebElement> details = source.findElements(By.id(Constants.MOVIE_DETAIL_RESOURCE_ID));
+    private List<Movie> getMoviesFromOption(WebElement option) throws InterruptedException {
         List<Movie> movies = new ArrayList<>();
 
-        for (WebElement detail:details) {
-            movies.add(getMovieFromDetail(detail));
+        openHomeMenu();
+        clickElement(option);
+        //this.getDriver().wait(2000);
+        TimeUnit.SECONDS.sleep(2);
+        movies.addAll(getMovies(resultMovies));
+
+        return  movies;
+    }
+
+    private List<Movie> getMovies(WebElement source){
+        List<Movie> movies = new ArrayList<>();
+
+        if(source != null) {
+            List<WebElement> details = source.findElements(By.id(Constants.MOVIE_DETAIL_RESOURCE_ID));
+
+            for (WebElement detail : details) {
+                movies.add(getMovieFromDetail(detail));
+            }
         }
+
+        return movies;
     }
 
     private Movie getMovieFromDetail(WebElement detail){

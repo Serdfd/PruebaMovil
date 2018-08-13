@@ -2,18 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="855db4af-64a8-4e33-997f-e5dd29519166" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/app.apk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/integration/Util/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/integration/models/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/integration/resources/features/search_movies.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serenity-appium-screenplay-poc/serenity.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../serenity-appium-screenplay-poc/serenity.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serenity.properties" beforeDir="false" afterPath="$PROJECT_DIR$/serenity.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/integration/WordPressAppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/integration/CineColombiaAppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/integration/cucumer/WordPressLoginScenarioSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/integration/cucumber/CineColombiaScenarioSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/integration/pages/WordPressLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/integration/pages/CineColombiaHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/integration/resources/WordPress.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/integration/resources/features/invalid_login.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/integration/serenitySteps/WordPressLoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/integration/steps/CineColombiaHomeSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/integration/Util/ExcelHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/integration/pages/CineColombiaHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/integration/pages/CineColombiaHomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/integration/steps/CineColombiaHomeSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/integration/steps/CineColombiaHomeSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/807515b3394e00f76a1cdaad96f6004b8affb866308aaf63b78fa8986a45d82e.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/807515b3394e00f76a1cdaad96f6004b8affb866308aaf63b78fa8986a45d82e.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/807515b3394e00f76a1cdaad96f6004b8affb866308aaf63b78fa8986a45d82e.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/807515b3394e00f76a1cdaad96f6004b8affb866308aaf63b78fa8986a45d82e.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/807515b3394e00f76a1cdaad96f6004b8affb866308aaf63b78fa8986a45d82e_screenshots.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/807515b3394e00f76a1cdaad96f6004b8affb866308aaf63b78fa8986a45d82e_screenshots.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-807515b3394e00f76a1cdaad96f6004b8affb866308aaf63b78fa8986a45d82e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-807515b3394e00f76a1cdaad96f6004b8affb866308aaf63b78fa8986a45d82e.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/browser-appium.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/browser-appium.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -68,14 +66,50 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="550239926">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="3" />
+          <entry key="java" value="2" />
+          <entry key="md" value="1" />
+          <entry key="xml" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="3" />
+          <entry key="JAVA" value="2" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="XML" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="557" />
+          <entry key="xml" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="557" />
+          <entry key="XML" value="3" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/integration/CineColombiaAppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+            <state relative-caret-position="238">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -84,7 +118,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/integration/resources/features/search_movies.feature">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -92,37 +126,37 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/integration/steps/CineColombiaHomeSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/integration/pages/CineColombiaHomePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1">
-              <caret line="87" selection-start-line="87" selection-end-line="87" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1709#1710#0" expanded="true" />
-                <element signature="e#1755#1756#0" expanded="true" />
-                <element signature="e#1821#1822#0" expanded="true" />
-                <element signature="e#1868#1869#0" expanded="true" />
-                <element signature="e#2232#2233#0" expanded="true" />
-                <element signature="e#2274#2275#0" expanded="true" />
-                <element signature="e#3636#3637#0" expanded="true" />
-                <element signature="e#3702#3703#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="153">
+              <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/integration/Util/Constants.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/integration/pages/CineColombiaHomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="104" selection-start-line="3" selection-start-column="104" selection-end-line="3" selection-end-column="104" />
+            <state relative-caret-position="169">
+              <caret line="100" column="38" selection-start-line="100" selection-start-column="38" selection-end-line="100" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2279#2280#0" expanded="true" />
+                <element signature="e#2323#2324#0" expanded="true" />
+                <element signature="e#2710#2711#0" expanded="true" />
+                <element signature="e#2748#2749#0" expanded="true" />
+                <element signature="e#2803#2804#0" expanded="true" />
+                <element signature="e#2846#2847#0" expanded="true" />
+                <element signature="e#4137#4138#0" expanded="true" />
+                <element signature="e#4203#4204#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -147,14 +181,15 @@
         <option value="$PROJECT_DIR$/src/test/java/integration/cucumber/WordPressLoginScenarioSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/integration/pages/CineColombiaLoginPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/integration/resources/features/invalid_login.feature" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/integration/resources/features/search_movies.feature" />
         <option value="$PROJECT_DIR$/src/test/java/integration/cucumber/CineColombiaScenarioSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/integration/CineColombiaAppTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/integration/steps/CineColombiaHomeSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/integration/models/Movies.java" />
         <option value="$PROJECT_DIR$/src/test/java/integration/Util/Constants.java" />
+        <option value="$PROJECT_DIR$/src/test/java/integration/steps/CineColombiaHomeSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/integration/Util/ExcelHelper.java" />
         <option value="$PROJECT_DIR$/src/test/java/integration/pages/CineColombiaHomePage.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -176,7 +211,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -187,11 +221,6 @@
             <path>
               <item name="serenity-appium" type="b2602c69:ProjectViewProjectNode" />
               <item name="serenity-appium" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="serenity-appium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="serenity-appium" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -214,24 +243,6 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="integration" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="serenity-appium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="serenity-appium" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="integration" type="462c0819:PsiDirectoryNode" />
-              <item name="cucumber" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="serenity-appium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="serenity-appium" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="integration" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="serenity-appium" type="b2602c69:ProjectViewProjectNode" />
@@ -249,16 +260,7 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="integration" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="serenity-appium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="serenity-appium" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="integration" type="462c0819:PsiDirectoryNode" />
-              <item name="steps" type="462c0819:PsiDirectoryNode" />
+              <item name="Util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -266,10 +268,11 @@
       </pane>
       <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534181448950" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534185643757" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -324,94 +327,95 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WordPressAppTest - 2018.08.13 at 11h 16m 55s.xml">
-      <configuration name="WordPressAppTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WordPressAppTest - 2018.08.13 at 11h 17m 55s.xml">
-      <configuration name="WordPressAppTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CineColombiaAppTest - 2018.08.13 at 11h 24m 47s.xml">
+    <history-entry file="CineColombiaAppTest - 2018.08.13 at 13h 08m 15s.xml">
       <configuration name="CineColombiaAppTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CineColombiaAppTest - 2018.08.13 at 11h 28m 26s.xml">
+    <history-entry file="CineColombiaAppTest - 2018.08.13 at 13h 11m 04s.xml">
       <configuration name="CineColombiaAppTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CineColombiaAppTest - 2018.08.13 at 11h 36m 38s.xml">
+    <history-entry file="CineColombiaAppTest - 2018.08.13 at 13h 11m 57s.xml">
       <configuration name="CineColombiaAppTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CineColombiaAppTest - 2018.08.13 at 11h 38m 45s.xml">
+    <history-entry file="CineColombiaAppTest - 2018.08.13 at 13h 13m 40s.xml">
       <configuration name="CineColombiaAppTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CineColombiaAppTest - 2018.08.13 at 11h 40m 55s.xml">
+    <history-entry file="CineColombiaAppTest - 2018.08.13 at 13h 25m 58s.xml">
       <configuration name="CineColombiaAppTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CineColombiaAppTest - 2018.08.13 at 11h 45m 44s.xml">
+    <history-entry file="CineColombiaAppTest - 2018.08.13 at 13h 29m 21s.xml">
       <configuration name="CineColombiaAppTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CineColombiaAppTest - 2018.08.13 at 11h 59m 08s.xml">
+    <history-entry file="CineColombiaAppTest - 2018.08.13 at 13h 30m 57s.xml">
       <configuration name="CineColombiaAppTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CineColombiaAppTest - 2018.08.13 at 12h 30m 10s.xml">
+    <history-entry file="CineColombiaAppTest - 2018.08.13 at 13h 34m 00s.xml">
+      <configuration name="CineColombiaAppTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CineColombiaAppTest - 2018.08.13 at 13h 37m 23s.xml">
+      <configuration name="CineColombiaAppTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CineColombiaAppTest - 2018.08.13 at 13h 38m 55s.xml">
       <configuration name="CineColombiaAppTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32879046" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3850085" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39863715" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32879046" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32879046" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3850085" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39863715" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32879046" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Image Layers" order="0" />
-      <window_info id="Designer" order="1" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24962178" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="3" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" weight="0.32879046" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.3850085" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Theme Preview" order="2" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -421,16 +425,10 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/integration/CineColombiaAppTest.java</url>
-          <line>14</line>
-          <properties />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/integration/pages/CineColombiaHomePage.java</url>
-          <line>82</line>
+          <line>85</line>
           <properties />
-          <option name="timeStamp" value="4" />
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -449,13 +447,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="268">
           <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
@@ -484,13 +475,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/integration/resources/features/search_movies.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/integration/models/Movie.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-323">
@@ -515,19 +499,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/integration/CineColombiaAppTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/integration/resources/features/search_movies.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+        <state relative-caret-position="68">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/integration/steps/CineColombiaHomeSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/integration/Util/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -536,21 +516,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/integration/pages/CineColombiaHomePage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/integration/Util/ExcelHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
-          <caret line="87" selection-start-line="87" selection-end-line="87" />
+        <state relative-caret-position="153">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1709#1710#0" expanded="true" />
-            <element signature="e#1755#1756#0" expanded="true" />
-            <element signature="e#1821#1822#0" expanded="true" />
-            <element signature="e#1868#1869#0" expanded="true" />
-            <element signature="e#2232#2233#0" expanded="true" />
-            <element signature="e#2274#2275#0" expanded="true" />
-            <element signature="e#3636#3637#0" expanded="true" />
-            <element signature="e#3702#3703#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-core/2.1.0/cucumber-core-2.1.0.jar!/cucumber/runtime/Utils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-core/1.7.4/serenity-core-1.7.4.jar!/net/thucydides/core/steps/StepInterceptor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="377" selection-start-line="377" selection-end-line="377" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/cglib/cglib/3.2.5/cglib-3.2.5.jar!/net/sf/cglib/proxy/MethodProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="122" selection-start-line="122" selection-end-line="122" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/integration/steps/CineColombiaHomeSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/integration/CineColombiaAppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/integration/pages/CineColombiaHomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="100" column="38" selection-start-line="100" selection-start-column="38" selection-end-line="100" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2279#2280#0" expanded="true" />
+            <element signature="e#2323#2324#0" expanded="true" />
+            <element signature="e#2710#2711#0" expanded="true" />
+            <element signature="e#2748#2749#0" expanded="true" />
+            <element signature="e#2803#2804#0" expanded="true" />
+            <element signature="e#2846#2847#0" expanded="true" />
+            <element signature="e#4137#4138#0" expanded="true" />
+            <element signature="e#4203#4204#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
         </state>
       </provider>
     </entry>

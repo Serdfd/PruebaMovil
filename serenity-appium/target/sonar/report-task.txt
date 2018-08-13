@@ -1,0 +1,7 @@
+organization=serdfd-github
+projectKey=net.serenity-bdd.appium.integration:serenity-appium
+serverUrl=https://sonarcloud.io
+serverVersion=7.3.0.15267
+dashboardUrl=https://sonarcloud.io/dashboard?id=net.serenity-bdd.appium.integration%3Aserenity-appium
+ceTaskId=AWU0zAxiIGZrxxccGKeA
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AWU0zAxiIGZrxxccGKeA

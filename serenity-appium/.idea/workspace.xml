@@ -2,48 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="855db4af-64a8-4e33-997f-e5dd29519166" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/integration/CineColombiaAppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/integration/CineColombiaAppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/integration/Util/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/integration/Util/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/integration/Util/ExcelHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/integration/Util/ExcelHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/integration/cucumber/CineColombiaScenarioSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/integration/cucumber/CineColombiaScenarioSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/integration/pages/CineColombiaHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/integration/pages/CineColombiaHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/integration/resources/features/search_movies.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/integration/resources/features/search_movies.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/integration/steps/CineColombiaHomeSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/integration/steps/CineColombiaHomeSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/219c33c22033e940251aa0fe18ee29ae75520ad0679109a28064625f2ebcc26c.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/3888f6145314777a76c00a90cbed2a484d42c80a300422830840f579fa6685c7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/48e9312fbfc10491be91aa04322f0da763febdb5a1350150d34cc02783c867e9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/6819319a9fd45512a07888b4a498b57b06a3c639085d913b57776edd6067c0e6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/79d971bd8b52cc3363dac92175fd7719dd4380d6d8df34fa96cf814c794f6f9a.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/807515b3394e00f76a1cdaad96f6004b8affb866308aaf63b78fa8986a45d82e.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/807515b3394e00f76a1cdaad96f6004b8affb866308aaf63b78fa8986a45d82e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/807515b3394e00f76a1cdaad96f6004b8affb866308aaf63b78fa8986a45d82e_screenshots.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/88b60717a2b304051eef11bd47321bc4cceb6300746cd1fa376e801f877bcc7d.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/897a037edd963e02e6eaa116bb8c8a238c0d832d8aad29bf2b6674a36621c06a.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/8a367c3b71586d269c832c8c266c9b39e6cac332f6d4d1680b6c3fcd79027abe.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/8bf124f9f8b59dab15b3bf69b9a94e017adc9dbf0f908dadced27916bf0a61c0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/9efbeab7ac34174180107d12301d630c2923d92c16507711e4af1f09e08bf85d.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-807515b3394e00f76a1cdaad96f6004b8affb866308aaf63b78fa8986a45d82e.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/a1ba80719cbde228060cc4d49b1b7e1528eacf99e40aa50eacc33f486e5f96fb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/a7addb7dcc74cb2749f15329d59ea6c4a686e9cfb9ca34a84bf6a277dd3db1bf.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/ab1ea0c6c13f864f6c6fcaff4455fab87b37466a6e5bb83ff05496168f96b062.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/be21953b6d67a609246d33dadd87b0c379d016c413d4d98a8e39ad78ce4883de.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/f0b50392f46c21a8077f2127cd719bbd60d20217f7c723737e49a8c1696a6f61.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/pagesource2390806038927563922.html.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/pagesource5004567935042696037.html.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/pagesource5365873627659275411.html.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/pagesource7328185147809655088.html.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/scaled_219c33c22033e940251aa0fe18ee29ae75520ad0679109a28064625f2ebcc26c.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/scaled_3888f6145314777a76c00a90cbed2a484d42c80a300422830840f579fa6685c7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/scaled_48e9312fbfc10491be91aa04322f0da763febdb5a1350150d34cc02783c867e9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/scaled_79d971bd8b52cc3363dac92175fd7719dd4380d6d8df34fa96cf814c794f6f9a.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/scaled_88b60717a2b304051eef11bd47321bc4cceb6300746cd1fa376e801f877bcc7d.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/scaled_8a367c3b71586d269c832c8c266c9b39e6cac332f6d4d1680b6c3fcd79027abe.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/scaled_8bf124f9f8b59dab15b3bf69b9a94e017adc9dbf0f908dadced27916bf0a61c0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/scaled_9efbeab7ac34174180107d12301d630c2923d92c16507711e4af1f09e08bf85d.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/scaled_a1ba80719cbde228060cc4d49b1b7e1528eacf99e40aa50eacc33f486e5f96fb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/scaled_a7addb7dcc74cb2749f15329d59ea6c4a686e9cfb9ca34a84bf6a277dd3db1bf.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/scaled_be21953b6d67a609246d33dadd87b0c379d016c413d4d98a8e39ad78ce4883de.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/scaled_f0b50392f46c21a8077f2127cd719bbd60d20217f7c723737e49a8c1696a6f61.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -108,42 +67,69 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="4" />
+          <entry key="iml" value="1" />
           <entry key="java" value="9" />
           <entry key="md" value="1" />
-          <entry key="xml" value="3" />
+          <entry key="properties" value="1" />
+          <entry key="xml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="4" />
+          <entry key="IDEA_MODULE" value="1" />
           <entry key="JAVA" value="9" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="XML" value="3" />
+          <entry key="Properties" value="1" />
+          <entry key="XML" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="feature" value="146" />
           <entry key="java" value="959" />
-          <entry key="xml" value="3" />
+          <entry key="xml" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Cucumber" value="146" />
           <entry key="JAVA" value="959" />
-          <entry key="XML" value="3" />
+          <entry key="XML" value="17" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/integration/CineColombiaAppTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
               <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/serenity.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/serenity-appium.iml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -195,7 +181,6 @@
         <option value="$PROJECT_DIR$/src/test/java/integration/pages/CineColombiaLoginPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/integration/resources/features/invalid_login.feature" />
         <option value="$PROJECT_DIR$/src/test/java/integration/models/Movies.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/integration/Util/Constants.java" />
         <option value="$PROJECT_DIR$/src/test/java/integration/resources/features/search_movies.feature" />
         <option value="$PROJECT_DIR$/src/test/java/integration/Util/ExcelHelper.java" />
@@ -203,6 +188,7 @@
         <option value="$PROJECT_DIR$/src/test/java/integration/steps/CineColombiaHomeSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/integration/cucumber/CineColombiaScenarioSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/integration/CineColombiaAppTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -312,7 +298,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534188510078" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534189063150" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -402,7 +388,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -411,7 +397,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32879046" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3850085" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3850085" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39863715" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -483,13 +469,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/serenity.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/integration/pages/MobilePageObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -542,13 +521,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
           <caret line="377" selection-start-line="377" selection-end-line="377" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -628,6 +600,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serenity.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serenity-appium.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
